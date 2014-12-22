@@ -6,20 +6,20 @@
 <!--<![endif]-->
 
 <head>
-    <title>Thomas's Awesome Website</title>
+    <title>Welcome to Dragonfly | Multipurpose Bootstrap Template</title>
 
     <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <meta name="author" content="Thomas Chen">
+    <meta name="author" content="Jiri Cermak">
 
     <!--  Boostrap Framework  -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!--=== CSS - Dragonfly ===-->
-    <link href="assets/css/themes/red.css" rel="stylesheet" id="colors">
+    <link href="assets/css/themes/light-blue.css" rel="stylesheet" id="colors">
 
     <!--=== LESS - Dragonfly ===-->
     <!--<link href="assets/less/main.less" rel="stylesheet/less">-->
@@ -50,7 +50,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">thomas<span class="text-primary">dvm</span></a>
+                <a class="navbar-brand" href="index.html">Dragon<span class="text-primary">fly</span></a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
@@ -58,13 +58,22 @@
 
                     <!--Home Pages -->
                     <li class="dropdown">
-                        <a href="aboutme.html">About
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0">Home
                     </a>
+                        <ul class="dropdown-menu ">
+                            <li>
+                                <a href="index.html">Home - Option 1</a>
+                            </li>
+
+                            <li>
+                                <a href="index-2.html">Home - Option 2</a>
+                            </li>
+                        </ul>
                     </li>
 
                     <!--Pages-->
                     <li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0">Talks</a>
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0">Pages</a>
 
                         <ul class="dropdown-menu">
 
@@ -132,7 +141,7 @@
 
                     <!--Portfolio-->
                     <li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0">Research
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0">Portfolio
                     </a>
                         <ul class="dropdown-menu ">
                             <li>
@@ -160,7 +169,7 @@
 
                     <!-- Blog -->
                     <li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0">Fun Things
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0">Blog
                     </a>
                         <ul class="dropdown-menu">
                             <li>
@@ -174,7 +183,7 @@
 
                     <!--Get Started-->
                     <li class="dropdown">
-                        <a href="get-started/index.php" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0">Misc Stuff
+                        <a href="get-started/index.php" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0">Get Started
                     </a>
                         <ul class="dropdown-menu">
                             <li>
@@ -197,13 +206,11 @@
 
 
                     <!-- Sidebar -->
-                    <!--
                     <li class="dropdown hidden-xs">
                         <a href="javascript:void(0);" id="sidebar-btn">
                             <i class="fa fa-bars"></i>
                         </a>
                     </li>
-                    -->
 
                 </ul>
             </div>
@@ -220,21 +227,19 @@
         <div class="bg-filter sTop">
             <div class="container">
                 <div class="jumbotron trn v-center">
-                    <h1>Welcome to my website!</h1>
+                    <h1>Responsive Bootstrap Theme</h1>
                     <div class="space-sm"></div>
-                    <p>I'm a veterinary ophthalmologist and this is my personal homepage.
-                        <br>Please use the navigation menu above or the content below to get to the desired info.</p>
+                    <p>Dragonfly is based on the newest Twitter Bootstrap 3.2,
+                        <br>The bootstrap template is fully responsive, easy customize and ready for your business.</p>
                     <div class="space-sm"></div>
-                    <!--
                     <ul class="list-inline">
                         <li>
-                            <a href="vetophtho/vetophtho.html" class="btn btn-default-trn btn-xlg scroll"><i class="fa fa-eye"></i>Talks</a>
+                            <a href="https://creativemarket.com/cermak/52722-Dragonfly-Responsive-Business-Theme" class="btn btn-default-trn btn-xlg scroll"><i class="fa fa-bolt"></i>Buy The Theme</a>
                         </li>
                         <li>
-                            <a href="#learn-more" class="btn btn-primary btn-xlg scroll"><i class="fa fa-paper-plane-o"></i>Research</a>
+                            <a href="#learn-more" class="btn btn-primary btn-xlg scroll"><i class="fa fa-paper-plane-o"></i>Learn More</a>
                         </li>
                     </ul>
-                    -->
                 </div>
             </div>
         </div>
@@ -243,52 +248,87 @@
 
 
     <!--===    MAIN WRAP     ===-->
-
-    <!-- About Me section -->
-    <section class="section-lg bg-grey">
+    <!-- Features section -->
+    <div id="learn-more"></div>
+    <section class="section">
         <div class="container">
             <div class="row">
-                <h2 class="lg-title lg-title-border">Hi there.</h2>
-                <!--fadeInLeft-->
-                <div class=" col-sm-6 wow fadeInLeft">
-                    <p>My name is Thomas and I work at the University of Tennesse Veterinary Medical Center and also at Village Veterinary Medical Center (apparently I have a thing for working at veterinary medical centers). I'm interested in ocular disease and surgery as well as data analysis and visualization.</p>
-                    <p>I like teaching and designing/writing teaching materials and so this website has some handouts and slides I've produced for some talks I've given as well as references to some research and other fun projects that I've dabbled in.</p>
-                    <p>Below is a sample of the thrilling and exciting material available here.</p>
-                    <div class="space-sm"></div>
-                    <ul class="info-list md-list style i-primary">
-                        <li>
-                            <i class="fa fa-play"></i>Tackling glaucoma (lecture)</li>
-                        <li>
-                            <i class="fa fa-play"></i>Non-healing corneal ulcers (lecture)</li>
-                        <li>
-                            <i class="fa fa-play"></i>Tear production in horses (research)</li>
-                        <li>
-                            <i class="fa fa-play"></i>Intern magnets ("fun" stuff)</li>
-                    </ul>
-                    <div class="space visible-xs"></div>
+                <div class="col-sm-3">
+                    <div class="text-center">
+                        <i class="fa fa-laptop hovicon effect-3 sub-b easePulse wow" data-wow-delay="0.2s"></i>
+                        <h3 class="wow fadeIn m-10-top" data-wow-delay="0.4s">Fully responsive</h3>
+                        <p class="wow fadeIn" data-wow-delay="0.4s">Nulle omnis iste natus error sit voluptatem accusantium.</p>
+                    </div>
                 </div>
-
-                <div class="col-sm-6 wow fadeInRight">
-                    <img class="img-mw470" src="assets/img/keyboard.jpg" alt="not me working photo">
+                <div class="col-sm-3">
+                    <div class="text-center">
+                        <i class="fa fa-globe hovicon effect-3 sub-b easePulse wow" data-wow-delay="0.4s"></i>
+                        <h3 class="wow fadeIn m-10-top" data-wow-delay="0.6s">HTML5 & CSS3</h3>
+                        <p class="wow fadeIn" data-wow-delay="0.6s">Nulle omnis iste natus error sit voluptatem accusantium.</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="text-center">
+                        <i class="fa fa-plane hovicon effect-3 sub-b easePulse wow" data-wow-delay="0.6s"></i>
+                        <h3 class="wow fadeIn m-10-top" data-wow-delay="0.8s">Ready for use</h3>
+                        <p class="wow fadeIn" data-wow-delay="0.8s">Nulle omnis iste natus error sit voluptatem accusantium.</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="text-center">
+                        <i class="fa fa-lightbulb-o hovicon effect-3 sub-b easePulse wow" data-wow-delay="0.8s"></i>
+                        <h3 class="wow fadeIn m-10-top" data-wow-delay="1s">Shortcodes</h3>
+                        <p class="wow fadeIn" data-wow-delay="1s">Nulle omnis iste natus error sit voluptatem accusantium.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Works/Projects section -->
+    <!-- Services section -->
+    <section class="section-lg bg-grey">
+        <div class="container">
+            <div class="row">
+                <h2 class="lg-title lg-title-border">What we do?</h2>
+                <!--fadeInLeft-->
+                <div class=" col-sm-6 wow fadeInLeft">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam sapien elit, consequat eget, tristique non. Venenatis quis ante. Curabitur ligula sapien.</p>
+                    <p>Pulvinar a vestibulum quis, facilisis vel sapien. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                    <div class="space-sm"></div>
+                    <ul class="info-list md-list style i-primary">
+                        <li>
+                            <i class="fa fa-play"></i>Pellentesque pretium lectus id.</li>
+                        <li>
+                            <i class="fa fa-play"></i>Excepteur sint occaecat cupidatat non.</li>
+                        <li>
+                            <i class="fa fa-play"></i>Aliquam erat volutpat ufsce.</li>
+                        <li>
+                            <i class="fa fa-play"></i>Vestibulum fermentum tortor id mi.</li>
+                    </ul>
+                    <div class="space visible-xs"></div>
+                </div>
+
+                <div class="col-sm-6 wow fadeInRight">
+                    <img class="img-mw450" src="assets/img/Showcase-Template-Flat-Presentation-Vol-3-portfolio.png" alt="Flat showcase presentation">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our works/ projects section -->
     <section class="section-lg">
         <div class="container">
 
-            <h2 class="lg-title lg-title-border">My Stuff</h2>
+            <h2 class="lg-title lg-title-border">Our work</h2>
 
             <ul class="filter-tabs">
                 <li class="filter active" data-filter="mix"><span>All</span>
                 </li>
-                <li class="filter" data-filter="apps"><span>Talks</span>
+                <li class="filter" data-filter="apps"><span>Application</span>
                 </li>
-                <li class="filter" data-filter="devices"><span>Research</span>
+                <li class="filter" data-filter="devices"><span>Devices</span>
                 </li>
-                <li class="filter" data-filter="web"><span>"Fun" Things</span>
+                <li class="filter" data-filter="web"><span>Webdesign</span>
                 </li>
             </ul>
 
@@ -434,10 +474,91 @@
             </div>
         </div>
     </div>
-    <!-- Miscellaneous stuff -->
+
+    <!-- Pricing tables -->
+    <div id="get-started"></div>
+    <section class="section">
+        <div class="container">
+            <h2 class="lg-title lg-title-border">Our plans</h2>
+            <div class="space-sm"></div>
+            <div class="row">
+                <div class="col-sm-4 wow fadeIn" data-wow-delay="0.2s">
+                    <div class="panel panel-default prices first">
+                        <div class="panel-body">
+                            <i class="fa fa-paper-plane icon-u"></i>
+
+                            <h2 class="val">$15<small>/month</small></h2>
+
+                            <ul class="info-list md-list primary">
+                                <li>
+                                    <span>5Gb</span>Storage</li>
+                                <li>
+                                    <span>1</span>Email account</li>
+                                <li>
+                                    <span>2</span>Hosted domains</li>
+                                <li>
+                                    <span>24/7</span>Email support</li>
+                            </ul>
+                            <div class="space-md"></div>
+                            <a href="#" class="btn btn-default">Start Trial</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="panel panel-default prices  bg-primary">
+                        <div class="panel-body ">
+                            <div class="ribbon">Favorite</div>
+
+                            <i class="fa fa-plane icon-u"></i>
+
+                            <h2 class="val">$30<small>/month</small></h2>
+
+                            <ul class="info-list md-list default">
+                                <li>
+                                    <span>20Gb</span>Storage</li>
+                                <li>
+                                    <span>10</span>Email account</li>
+                                <li>
+                                    <span>15</span>Hosted domains</li>
+                                <li>
+                                    <span>24/7</span>Email support</li>
+                            </ul>
+                            <div class="space-md"></div>
+                            <a href="#" class="btn btn-default-trn">Start Trial</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="panel panel-default prices last">
+                        <div class="panel-body">
+                            <i class="fa fa-rocket icon-u"></i>
+
+                            <h2 class="val">$50<small>/month</small></h2>
+
+                            <ul class="info-list md-list primary">
+                                <li>
+                                    <span>100Gb</span>Storage</li>
+                                <li>
+                                    <span>20</span>Email account</li>
+                                <li>
+                                    <span>25</span>Hosted domains</li>
+                                <li>
+                                    <span>24/7</span>Email support</li>
+                            </ul>
+                            <div class="space-md"></div>
+                            <a href="#" class="btn btn-default">Start Trial</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Breaking news -->
     <section class="section bg-grey">
         <div class="container">
-            <h2 class="lg-title lg-title-border">Miscellaneous Stuff</h2>
+            <h2 class="lg-title lg-title-border">Breaking news</h2>
             <div class="row">
                 <div class="col-md-3 col-lg-3 col-sm-6 wow fadeInLeft" data-wow-delay="0.8s">
                     <div class="news">
@@ -546,7 +667,6 @@
 
 
     <!--===    STYLE SWITCHER     ===-->
-    <!--
     <div class="style-switcher">
         <i class="fa fa-gear switcher-icon"></i>
         <div class="body">
@@ -592,12 +712,10 @@
             </div>
         </div>
     </div>
-    -->
     <!--===/END    STYLE SWITCHER     ===-->
 
     
     <!--===    SIDEBAR     ===-->
-    <!--
     <div class="sidebar-off hidden-xs sidebar">
         <div class="wrap">
             <div class="form-lg">
@@ -685,7 +803,6 @@
             </ul>
         </div>
     </div>
-    -->
     <!--===/END    SIDEBAR     ===-->
 
     <!--===    FOOTER     ===-->
@@ -698,19 +815,15 @@
                         <ul class="info-list md-list i-primary">
                             <li>
                                 <i class="fa fa-envelope fa-fw"></i>
-                                <a href="mailto:tchendvm@gmail.com">tchendvm@gmail.com</a>
+                                <a href="mailto:influence.bootstrap@gmail.com">influence.bootstrap@gmail.com</a>
                             </li>
                             <li>
                                 <i class="fa fa-phone fa-fw"></i>
-                                (865) 974-8387
+                                +21 902 920 889
                             </li>
                             <li>
                                 <i class="fa fa-map-marker fa-fw"></i>
-                                <a href="https://maps.google.com/maps?q=UT+Veterinary+Medical+Center&ll=35.945537,-83.940772&spn=0.007887,0.016512&cid=8868697846259590947&t=m&z=17">UT Veterinary Medical Center<br> 2407 River Dr, Knoxville TN 37996</a>
-                            </li>
-                            <li>
-                                <i class="fa fa-map-marker fa-fw"></i>
-                                <a href="https://maps.google.com/maps?q=11301+Kingston+Pike,+Knoxville,+TN+37934&sll=35.882834,-84.158591&sspn=0.006676,0.0109864&hnear=11301+Kingston+Pike,+Knoxville,+Tennessee+37934-2802&t=m&z=16&iwloc=A">Village Veterinary Medical Center<br>11301 Kingston Pike, Farragut TN 37934</a>
+                                885 3rd Ave, NY 10022
                             </li>
                         </ul>
                     </div>
@@ -720,32 +833,64 @@
                         <ul class="info-list md-list i-primary">
                             <li>
                                 <i class="fa fa-angle-right fa-fw"></i>
-                                <a href="https://vetmed.tennessee.edu/vmc/Pages/default.aspx">
-                                    <span class="link-title">UT Veterinary Medical Center</span></a>
+                                <a href="#">
+                                    <span class="link-title">About Us</span>- Who we are</a>
                             </li>
                             <li>
                                 <i class="fa fa-angle-right fa-fw"></i>
-                                <a href="https://vetmed.tennessee.edu/vmc/SmallAnimalHospital/Ophthalmology/Pages/default.aspx">
-                                    <span class="link-title">UTVMC Ophthalmology</span></a>
+                                <a href="#">
+                                    <span class="link-title">Services</span>- What we do</a>
                             </li>
                             <li>
                                 <i class="fa fa-angle-right fa-fw"></i>
-                                <a href="http://www.villagevetclinic.com/">
-                                    <span class="link-title">Village Veterinary Medical Center</span></a>
+                                <a href="#">
+                                    <span class="link-title">Our Team</span>- Meet our team</a>
                             </li>
                             <li>
                                 <i class="fa fa-angle-right fa-fw"></i>
-                                <a href="http://acvo.org">
-                                    <span class="link-title">ACVO</span></a>
+                                <a href="#">
+                                    <span class="link-title">Portfolio</span>- Our work</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-angle-right fa-fw"></i>
+                                <a href="#">
+                                    <span class="link-title">Blog</span>- Breaking news</a>
                             </li>
                         </ul>
                     </div>
                     <div class="space-sm visible-sm visible-xs"></div>
                     <div class="col-md-4 col-lg-4  col-xs-12">
-                        <h4>About Me</h4>
-                        <p>Thomas Chen DVM, MS, DACVO</p>
-                        <p>Clinical Assistant Professor, Ophthalmology</p>
+                        <h4>About Us</h4>
+                        <p>Temporibus autem quibusdam et aut officiis debitis ut et voluptates repudiandae sint et molestiae non recusandae.</p>
                         <div class="space-sm"></div>
+                        <h4>Follow Us</h4>
+                        <ul class="circle-icons icons-list">
+                            <li>
+                                <a href="#" title="Follow us">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Follow us">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Follow us">
+                                    <i class="fa fa-tumblr"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Follow us">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Follow us">
+                                    <i class="fa fa-youtube-play"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -753,7 +898,7 @@
 
         <div class="footer-bottom">
             <div class="container">
-                <p>lalalala</p>
+                <p>© 2014 Dragonfly. All rights reserved. Theme by Jiri Cermak.</p>
             </div>
         </div>
     </footer>
