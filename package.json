@@ -12,5 +12,10 @@
   "bugs": {
     "url": "https://github.com/tcdvm/thomasdvm/issues"
   },
-  "homepage": "https://github.com/tcdvm/thomasdvm"
+  "homepage": "https://github.com/tcdvm/thomasdvm",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.2",
+    "gulp-util": "^3.0.1"
+  }
 }

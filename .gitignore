@@ -1,0 +1,5 @@
+.DS_Store
+node_odules
+.tmp
+builds/**/assets/img/*
+*.sublime-*
