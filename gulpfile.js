@@ -23,3 +23,7 @@ gulp.task('log', function(){
 });
 
 gulp.task('default', ['js']);
+
+gulp.task('watch', function() {
+  gulp.watch(jsSources, ['js']);
+});
