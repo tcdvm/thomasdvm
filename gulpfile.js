@@ -22,8 +22,8 @@ gulp.task('log', function(){
   gutil.log("Workflows are awesome");
 });
 
-gulp.task('default', ['js']);
-
 gulp.task('watch', function() {
   gulp.watch(jsSources, ['js']);
 });
+
+gulp.task('default', ['js', 'watch']);
