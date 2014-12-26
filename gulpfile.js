@@ -5,9 +5,9 @@ var gulp = require('gulp'),
 var jsSources = [
   'components/scripts/min/modernizr.custom.min.js',
   'components/scripts/min/bootstrap-hover-dropdown.min.js',
-  'components/scripts/min/slippry.min.js',
-  'components/scripts/min/contact-form.min.js',
-  'components/scripts/min/scripts.min.js'
+  'components/scripts/slippry.js',
+  'components/scripts/contact-form.js',
+  'components/scripts/scripts.js'
 ];
 
 gulp.task('js', function(){
@@ -21,3 +21,5 @@ gulp.task('js', function(){
 gulp.task('log', function(){
   gutil.log("Workflows are awesome");
 });
+
+gulp.task('default', ['js']);
