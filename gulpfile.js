@@ -5,7 +5,6 @@ var gulp = require('gulp'),
 
 var jsSources = [
   'components/scripts/min/modernizr.custom.min.js',
-  'components/scripts/min/bootstrap-hover-dropdown.min.js',
   'components/scripts/slippry.js',
   'components/scripts/contact-form.js',
   'components/scripts/scripts.js'
